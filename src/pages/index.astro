@@ -1,23 +1,23 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Navbar from '../components/Navbar.svelte'; 
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Navbar from "../components/Navbar.svelte";
+import Sidebar from "../components/sidebar.svelte";
 ---
 
 <Layout title="Youtube clone">
-	
-	<Navbar/>
+  <Navbar />
+  <Sidebar />
 </Layout>
 
 <style>
-	
-	::selection{
-		background-color: rgb(238, 43, 43);
-		color: black;
-	}
-	html,body{
-		
-		height: fit-content;
-		
-		}
+  ::selection {
+    background-color: rgb(238, 43, 43);
+    color: black;
+  }
+  html,
+  body {
+    height: fit-content;
+    display: block;
+  }
 </style>

@@ -10,7 +10,7 @@
   
 </script>
 
-<div class="columns margins">
+<div class="textfield_div_">
   <div>
     <input variant="outlined" bind:value={valueA} label="" class='search_field' placeholder='Search'/>
     
@@ -28,6 +28,12 @@
   width:450px;
   border-radius:2rem 0 0 2rem;
   background:'none';
+ }
+ :global(.textfield_div_){
+
+  height:fit-content;
+  margin:auto;
+
  }
 
 </style>

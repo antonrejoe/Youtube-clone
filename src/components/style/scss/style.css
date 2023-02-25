@@ -12,18 +12,21 @@ body{
     padding: 0;
     width: fit-content;
     height: fit-content;
-    display: flex;
-    align-items: center;
 }
 .parent{
     background-color: #525252;
     width: 100vw;
     display: flex;
+    height: 7vh;
 }
 .logo{
-    display: inline-block;
+    display: flex;
     width: fit-content;
     height: fit-content;
+    margin-left: 1% ;
+    text-align: center;
+    align-items: center;
+    margin: auto 0;
 }
 
 .navbar_div{
@@ -43,7 +46,6 @@ body{
 }
 
 
-
 .youtube_text{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
 }
@@ -58,9 +60,11 @@ body{
 
 .search_btn{
     border-radius: 0rem 2rem 2rem 0 ;
-    height: 5vh;
+    height: 4.6vh;
     width: 4vw;
     padding: 10px;
+    border: none;
+    outline: none;
 }
 
 
@@ -69,19 +73,23 @@ body{
 .user_side{
     display: inline-flex;
     flex-direction: row;
+    margin: 0 ;
+    margin-right: 1%;
 }
 
 
 .user_side > button {
     display: inline-block;
+    background: none;
+}
+.user_side > button > span{
+    display: inline-block;
+    background: none;
 }
 
 
 
 
-.search_btn{
-    background-color: #0033;
-}
 
 .hamburger{
     width: fit-content;
@@ -90,10 +98,14 @@ body{
 }
 
 
-.parent > span {
+.parent > span:not(.logo,.user_side) {
     width: fit-content;
     height: fit-content;
     margin: auto;
 }
 
 
+.logo_text{
+    height: 100%;
+    margin: 0 5px;
+}

@@ -34,7 +34,9 @@
         border: none;
         cursor: pointer;
         display: flex;
-        padding: 0;
+        padding: 0 20px 0 0;
+        height:fit-content;
+        margin:auto 0;
         }
         :global(.line) {
         fill: none;
@@ -71,6 +73,7 @@
         stroke-width: 6;
         }
 
+        
        
 
 </style>

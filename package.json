@@ -11,12 +11,17 @@
 	},
 	"dependencies": {
 		"@astrojs/node": "^5.0.3",
+		"@astrojs/react": "^2.0.2",
 		"@astrojs/renderer-svelte": "^0.5.2",
 		"@astrojs/svelte": "^2.0.2",
 		"@emotion/react": "^11.10.6",
 		"@emotion/styled": "^11.10.6",
 		"@mui/material": "^5.11.10",
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
 		"astro": "^2.0.13",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
 		"svelte": "^3.55.1"
 	},
 	"devDependencies": {
@@ -24,6 +29,7 @@
 		"@smui/button": "^7.0.0-beta.0",
 		"@smui/slider": "^7.0.0-beta.0",
 		"@smui/textfield": "^7.0.0-beta.0",
-		"@smui/top-app-bar": "^7.0.0-beta.0"
+		"@smui/top-app-bar": "^7.0.0-beta.0",
+		"eslint": "^8.34.0"
 	}
 }
