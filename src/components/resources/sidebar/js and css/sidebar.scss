@@ -1,0 +1,91 @@
+body {
+    background-color: #d1d1d1;
+    width: 216px;
+
+}
+
+
+.div_sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 216px;
+    padding: 10px 0;
+    position: absolute;
+    top: 55px;
+    overflow: scroll;
+    z-index: 0;
+    background: #fff;
+}
+
+.div_sidebar>button:nth-of-type(1) {
+    margin-top: 20px;
+}
+
+.div_sidebar>button {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    border: none;
+    margin: 2% 10%;
+    padding: 1.5% 4%;
+    border-radius: 0.5rem;
+}
+
+.div_sidebar>button:hover {
+
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.div_sidebar>button>span {
+    display: inline-block;
+    margin: auto;
+    margin-left: 20px;
+
+}
+
+
+.div_sidebar>button>img {
+
+    display: inline-block;
+
+    height: 26px;
+    width: 26px;
+}
+
+.separator {
+    height: 20px;
+}
+
+.subscription_heading {
+    padding-left: 20px;
+    margin-left: 5%;
+}
+
+
+.channel_icons {
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+}
+
+.post_note {
+    text-align: start;
+    padding: 2% 5%;
+}
+
+
+.post_note>* {
+    display: inline-block;
+}
+
+.attribution {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+.post_note>p {
+    color: rgb(61, 61, 61);
+
+}

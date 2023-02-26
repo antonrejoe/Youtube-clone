@@ -8,7 +8,7 @@
 
 
     import './style/scss/style.css';
-    import banner from '@smui/banner'
+    import banner from '@smui/banner' 
     import Button from '@smui/button';
     import Textfield from '@smui/textfield';
     import TopAppBar from '@smui/top-app-bar'
@@ -69,7 +69,6 @@
     
     
     
-    <!-- <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Freepik - Flaticon</a> -->
 <style>
 
     .text_field{
