@@ -1,0 +1,42 @@
+.video_Card_Div {
+    position: relative;
+    color: white;
+    background-color: rgb(255, 5, 5);
+}
+
+
+.video_Details {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+
+
+.thumbnail_Div>img {
+    width: 359px;
+    height: 202px;
+    border-radius: 0.8rem;
+}
+
+
+.icon_Space>img {
+    height: 34px;
+    width: 34px;
+    margin: auto;
+}
+
+.title_Space {
+    position: relative;
+    display: block;
+    margin-top: 2.5%;
+}
+
+.title_Space>h5 {
+    margin: 5% 0%;
+    font-size: 1.4rem;
+}
+
+h6 {
+    margin: 0%;
+}

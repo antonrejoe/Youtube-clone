@@ -3,18 +3,22 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Navbar from "../components/Navbar.svelte";
 import Sidebar from "../components/sidebar.svelte";
+import Home from "../components/home.astro";
+import "./resources/js/index.js";
+import "./resources/css/style.css";
+import HomeVideoCard from "../components/homeVideoCard.astro";
 ---
 
 <Layout title="Youtube clone">
   <Navbar />
-  <Sidebar />
+  <div class="container">
+    <Sidebar />
+
+    <Home />
+  </div>
 </Layout>
 
 <style>
-  ::selection {
-    background-color: rgb(238, 43, 43);
-    color: black;
-  }
   html,
   body {
     height: fit-content;

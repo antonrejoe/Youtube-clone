@@ -1,16 +1,9 @@
-body {
-    background-color: #d1d1d1;
-    width: 216px;
-
-}
-
-
 .div_sidebar {
     display: flex;
     flex-direction: column;
     width: 216px;
+    position: relative;
     padding: 10px 0;
-    position: absolute;
     top: 55px;
     overflow: scroll;
     z-index: 0;

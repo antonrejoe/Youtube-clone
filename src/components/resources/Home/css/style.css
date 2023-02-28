@@ -1,0 +1,8 @@
+.home_Div {
+  display: grid;
+  grid-template-areas: "A B C D ";
+  gap: 2%;
+  -moz-column-gap: 4%;
+       column-gap: 4%;
+  margin: 5%;
+}/*# sourceMappingURL=style.css.map */

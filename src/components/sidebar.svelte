@@ -27,7 +27,7 @@
 </script>
 
 
-<div class='div_sidebar'>
+<div class='div_sidebar'     >
     
     
     <button>
@@ -131,8 +131,3 @@
 
 
 
-<style>
-    /* your styles go here */
-
-
-</style>
